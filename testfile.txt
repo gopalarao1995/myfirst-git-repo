@@ -1,3 +1,0 @@
-gh auth login
-
-9C6F-1AEE

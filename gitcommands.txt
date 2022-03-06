@@ -1,0 +1,17 @@
+gh auth login
+
+9C6F-1AEE
+
+git config --global user.email "gopalsampasala320@gmail.com"
+git config --global user.name "gopalarao1995"
+
+gh auth login
+gh repo create "repo-name" --public
+
+echo "# myfirst-git-repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gopalarao1995/myfirst-git-repo.git
+git push -u origin main
